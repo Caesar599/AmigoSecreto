@@ -47,6 +47,6 @@ function sortearAmigo ()
       }
     else
       {let NumeroAmigoSecreto = Math.floor(Math.random()*Amigos.length)
-       AsignarTextoAElemento ('h2',`El amigo secreto es ${Amigos[NumeroAmigoSecreto]}`);
+       AsignarTextoAElemento ('h3',`El amigo secreto es ${Amigos[NumeroAmigoSecreto]}`);
       }
    }

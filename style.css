@@ -2,6 +2,7 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
+    --color-resultado: #52C469;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
     --color-text: #444444;
@@ -103,6 +104,12 @@ body {
     font-family: "Merriweather", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* Resultado*/
+.Resultado
+    {padding: 20px;
+     color: var(--color-resultado);
+     font-size: 32px;}
 
 /* Estilos de botón */
 button {
